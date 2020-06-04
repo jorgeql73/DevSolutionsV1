@@ -1,12 +1,15 @@
 // Body
 $body-bg: #f8fafc;
 
+
 // Typography
 $font-family-sans-serif: 'Nunito', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+$enable-responsive-font-sizes:true;
 
 // Colors
+$primary:#0400ff;
 $blue: #3490dc;
 $indigo: #6574cd;
 $purple: #9561e2;
@@ -17,3 +20,14 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+
+
+.bi-tools{
+    color: #0400ff;
+    align-content: center;
+
+}
+.bi-code-slash{
+    color: #0400ff;
+   
+}

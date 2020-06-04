@@ -1,11 +1,14 @@
+
 <!DOCTYPE html>
+
+
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <title>DevSolutions</title>
+        <link rel="stylesheet" href="css/app.css">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
@@ -57,6 +60,8 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
+        
+            
 
             .m-b-md {
                 margin-bottom: 30px;
@@ -64,31 +69,46 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
+        
+        <div class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    DevSolutions
+                </a>
+            
+                @if (Route::has('login'))
+                    <div class="top-right links">
+                        @auth
+                            <a href="{{ url('/home') }}">Home</a>
+                        @else
+                            <a class="navbar-brand" href="{{ url('/') }}">items</a>
+                            <a href="{{ route('login') }}">Login</a>
+                        
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
+                            @if (Route::has('register'))
+                                <a href="{{ route('register') }}">Register</a>
+                            @endif
+                        @endauth
+                    </div>
+                @endif
+            </div>
+        </div>
+            
             <div class="content">
+                <!-- <div id="navbar">
+                </div> -->
+                <div id="carousel">
+                </div>
+                
                 <div class="title m-b-md">
-                    Laravel
+                    Quiroga Jorge Luis
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
+                    <a href="https://laravel.com/docs"></a>
+                    <a href="https://laracasts.com">Cursos</a>
+                    <a href="https://laravel-news.com">Contactos</a>
+                    <a href="https://blog.laravel.com">Nosotros</a>
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
@@ -97,4 +117,5 @@
             </div>
         </div>
     </body>
+    <script type="text/javascript" src="js/app.js"></script>
 </html>
