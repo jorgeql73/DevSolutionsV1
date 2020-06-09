@@ -31,3 +31,27 @@ $cyan: #6cb2eb;
     color: #0400ff;
    
 }
+.fa-instagram{
+    color: #c32aa3;
+    text-decoration-color: $primary;
+    &:hover, &:active, &:focus{
+        color:#c32aa3 ;
+    }
+}
+.fa-facebook{
+    color:  #1877f2;
+    text-decoration-color: $primary;
+    
+    &:hover, &:active, &:focus{
+        color: #0400ff;
+    }
+}
+.fa-phone{
+    color: $primary;
+}
+.fa-envelope-o{
+    color: $primary;
+}
+.permisos{
+    color: red;
+}

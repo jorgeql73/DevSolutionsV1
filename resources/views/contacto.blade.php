@@ -72,13 +72,18 @@
             <div class="col-lg-6 mx-auto py-3 px-4"> 
                 <h2 class= "display-5 text-primary">Contacto</h2>
                 <hr>
-                <h4 class="lead text-secondary mb-4"><br>
+                <h4 class="lead text-secondary mb-4">Si estas interesado en mi trabajo no dudes en contactarme. 
+                    Completa el formulario y te contactare a la brevedad o comunicate a los siguientes medios de contacto:
+                    <br><br><br>
+                </h4>
+                <h4 class="lead text-primary mb-4"><br>
+                    <i class="fa fa-phone"></i>  +54(011)1561985920<br><br>
+                    <i class="fa fa-envelope-o"></i>  jqdeveloper@outlook.com<br><br>
+                    <a href="https://www.facebook.com/jqdeveloper/"><i class="fa fa-facebook"></i>  JQDeveloper</a>
 
-                     Si estas interesado en mi trabajo no dudes en contactarme. 
-                    Completa el formulario y te contactare a la brebedad o comunicate a los siguientes medios de contacto<br><br><br>
-                    Telefono: +54(011)1561985920<br><br>
-                    E-Mail: jorgeql@hotmail.es<br><br>
-                    Facebook: JQDeveloper<br><br>
+                    <br><br>
+
+                    <a href="https://www.instagram.com/jqdeveloper/" ><i class="fa fa-instagram"></i>  JQDeveloper</a>
                     
                 </h4>
             </div>

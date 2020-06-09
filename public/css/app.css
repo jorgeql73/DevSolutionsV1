@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);@charset "UTF-8";
 
 .bi-tools {
   color: #0400ff;
@@ -7,6 +7,42 @@
 
 .bi-code-slash {
   color: #0400ff;
+}
+
+.fa-instagram {
+  color: #c32aa3;
+  -webkit-text-decoration-color: #0400ff;
+          text-decoration-color: #0400ff;
+}
+
+.fa-instagram:hover,
+.fa-instagram:active,
+.fa-instagram:focus {
+  color: #c32aa3;
+}
+
+.fa-facebook {
+  color: #1877f2;
+  -webkit-text-decoration-color: #0400ff;
+          text-decoration-color: #0400ff;
+}
+
+.fa-facebook:hover,
+.fa-facebook:active,
+.fa-facebook:focus {
+  color: #0400ff;
+}
+
+.fa-phone {
+  color: #0400ff;
+}
+
+.fa-envelope-o {
+  color: #0400ff;
+}
+
+.permisos {
+  color: red;
 }
 
 /*!

@@ -1,10 +1,11 @@
 <Html>
     <Head>
-        <title>@yield('title', 'DevSolutions')</title>
+        <title>@yield('title', 'JQDeveloper')</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="stylesheet" href="{{mix('/css/app.css')}}">
         <script src="{{mix('/js/app.js')}}" defer></script>
+        <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon">
     </Head>
   
     <Body>
@@ -18,7 +19,7 @@
                 @yield('content')
             </main>
             <footer class="bg-white text-center text-black-50 py-3 shadow">
-                {{ config('app.name')}} | Copyright @ {{ date('yield') }}
+                {{ config('app.name')}} | Copyright @ {{ date('Y') }}
             </footer>
         </div>
     </Body>

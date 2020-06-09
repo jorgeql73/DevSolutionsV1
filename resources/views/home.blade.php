@@ -1,5 +1,5 @@
 @extends('layout')
-@section('title', 'home')
+@section('title', 'JQDeveloper')
 @section('content')
 <!-- <div class="container">
     <div class="row justify-content-center">

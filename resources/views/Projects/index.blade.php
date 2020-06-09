@@ -17,21 +17,6 @@
                 @endif
             @endauth
             
-            <!-- @auth
-                {{$user=auth()->user()->id}}
-                @if($user==1)
-                    <a class="btn btn-primary" href="{{route('Projects.create')}}">Crear</a>
-                @endif
-                
-                
-                
-            @endauth      -->
-            
-            
-            <!-- $user=Auth::user()
-            if($user->id==1){
-                <a class="btn btn-primary" href="{{route('Projects.create')}}">Crear</a>
-            } -->
         </div>
         <h4 class="lead text secondary mb-4">Proyectos realizados en el ámbito académico y personal</h4>
 

@@ -1,24 +1,24 @@
 <?php
 
-namespace App\Mail;
+namespace JQDeveloper\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class MensajeResivido extends Mailable
+class MensajeRecibido extends Mailable
 {
     use Queueable, SerializesModels;
-    public $msj;
+    public $msg;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($m)
+    public function __construct($msg)
     {
-        $this->msj=$m;
+        $this->msg = $msg;
     }
 
     /**
@@ -28,6 +28,6 @@ class MensajeResivido extends Mailable
      */
     public function build()
     {
-        return $this->view('email.Mensaje_resivido');
+        return $this->view('email.Mensaje_recibido');
     }
 }

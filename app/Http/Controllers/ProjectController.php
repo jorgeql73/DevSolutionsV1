@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace JQDeveloper\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Project;
-use App\Http\Requests\SaveProjectRequest;
+use JQDeveloper\Project;
+use JQDeveloper\Http\Requests\SaveProjectRequest;
 class ProjectController extends Controller
 {
 

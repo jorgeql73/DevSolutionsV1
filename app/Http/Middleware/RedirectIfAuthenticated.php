@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace JQDeveloper\Http\Middleware;
 
-use App\Providers\RouteServiceProvider;
+use JQDeveloper\Providers\RouteServiceProvider;
 use Closure;
 use Illuminate\Support\Facades\Auth;
 

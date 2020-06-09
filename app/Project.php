@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace JQDeveloper;
 
 use Illuminate\Database\Eloquent\Model;
 
